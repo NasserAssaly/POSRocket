@@ -9,7 +9,7 @@
 function doCheckTransaction() {
 
     // this function just to test the transactionChecker function # remove it when publish new verison on real server
-    var value = transactionChecker.isValid('{1:a1, 2:b2, 3:c3, 4:d4}');
+    var value = transactionChecker.isValid('{1:a1, 2:b2, 3:c3, 4:d4}'); //
 
     console.log('the reuslt of transactionChecker = ' + value);
     if (!value) {
